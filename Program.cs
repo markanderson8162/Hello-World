@@ -15,6 +15,10 @@ namespace HelloWorld
             Console.WriteLine("What is the airspeed velocity of an unladen swallow?");
             var swallow = Console.ReadLine();
             Console.WriteLine($"Yes, {swallow} is correct!");
+            Console.WriteLine("Finally, what year is it?");
+            var year = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Correct, it's {year}");
+            
         }
     }
 }
